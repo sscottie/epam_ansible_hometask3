@@ -1,0 +1,6 @@
+---
+- hosts: nodes
+  roles:
+    - 'roles/ftp'
+  become: yes
+...
